@@ -98,7 +98,8 @@ const Head = () => {
                 <div className='flex items-center'>
                     <div className='w-1/6'>
                         <div className='flex flex-col items-center justify-center'>
-                            <p className='text-center text-6xl border-4 border-black w-28 h-28' type='text' placeholder='Strength Modifier'>{formulario.strMod}</p>
+                            <b><p className='text-2xl'>Strength</p></b>
+                            <p className='text-center text-6xl border-4 border-black w-28 h-28'>{formulario.strMod}</p>
                             <div >
                                 <input className='text-center border-2 border-black w-16 h-10' 
                                 type='text' 
@@ -112,7 +113,8 @@ const Head = () => {
 
                     <div className='w-1/6'>
                         <div className='flex flex-col items-center justify-center'>
-                            <p className='text-center text-6xl border-4 border-black w-28 h-28' type='text' placeholder='Dexterity Modifier'>{formulario.dexMod}</p>
+                            <b><p className='text-2xl'>Dexterity</p></b>
+                            <p className='text-center text-6xl border-4 border-black w-28 h-28'>{formulario.dexMod}</p>
                             <div className='static'>
                                 <input className='text-center border-2 border-black w-16 h-10' 
                                 type='text' 
@@ -126,7 +128,8 @@ const Head = () => {
 
                     <div className='w-1/6'>
                         <div className='flex flex-col items-center justify-center'>
-                            <p className='text-center text-6xl border-4 border-black w-28 h-28' type='text' placeholder='Constitution Modifier'>{formulario.conMod}</p>
+                            <b><p className='text-2xl'>Constitution</p></b>
+                            <p className='text-center text-6xl border-4 border-black w-28 h-28'>{formulario.conMod}</p>
                             <div >
                                 <input className='text-center border-2 border-black w-16 h-10' 
                                 type='text' 
@@ -140,7 +143,8 @@ const Head = () => {
 
                     <div className='w-1/6'>
                         <div className='flex flex-col items-center justify-center'>
-                            <p className='text-center text-6xl border-4 border-black w-28 h-28' type='text' placeholder='Intelligence Modifier'>{formulario.intMod}</p>
+                            <b><p className='text-2xl'>Intelligence</p></b>
+                            <p className='text-center text-6xl border-4 border-black w-28 h-28'>{formulario.intMod}</p>
                             <div className='static'>
                                 <input className='text-center border-2 border-black w-16 h-10' 
                                 type='text' 
@@ -154,7 +158,8 @@ const Head = () => {
 
                     <div className='w-1/6'>
                         <div className='flex flex-col items-center justify-center'>
-                            <p className='text-center text-6xl border-4 border-black w-28 h-28' type='text' placeholder='Wisdom Modifier'>{formulario.wisMod}</p>
+                            <b><p className='text-2xl'>Wisdom</p></b>
+                            <p className='text-center text-6xl border-4 border-black w-28 h-28'>{formulario.wisMod}</p>
                             <div >
                                 <input className='text-center border-2 border-black w-16 h-10' 
                                 type='text' 
@@ -168,7 +173,8 @@ const Head = () => {
 
                     <div className='w-1/6'>
                         <div className='flex flex-col items-center justify-center'>
-                            <p className='text-center text-6xl border-4 border-black w-28 h-28' type='text' placeholder='Charisma Modifier'>{formulario.chaMod}</p>
+                            <b><p className='text-2xl'>Charisma</p></b>
+                            <p className='text-center text-6xl border-4 border-black w-28 h-28'>{formulario.chaMod}</p>
                             <div className='static'>
                                 <input className='text-center border-2 border-black w-16 h-10' 
                                 type='text' 
