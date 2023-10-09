@@ -76,15 +76,19 @@ const Head = () => {
 
                 <div className='flex items-center'>
                     <div className='flex flex-col items-center justify-center w-1/4'>
+                        <b><p className='text-2xl'>Armor class</p></b>
                         <input className='text-center border-4 border-black w-1/4 h-20' type='text' placeholder='AC'/>
                     </div>
                     <div className='flex flex-col items-center justify-center w-1/4'>
+                        <b><p className='text-2xl'>Initiative</p></b>
                         <input className='text-center border-4 border-black w-1/4 h-20' type='text' placeholder='Initiative'/>
                     </div>
                     <div className='flex flex-col items-center justify-center w-1/4'>
+                        <b><p className='text-2xl'>Movement speed</p></b>
                         <input className='text-center border-4 border-black w-1/4 h-20' type='text' placeholder='Speed'/>
                     </div>
                     <div className='flex flex-col items-center justify-center w-1/4'>
+                        <b><p className='text-2xl'>Proficiency</p></b>
                         <p className='text-center text-6xl border-4 border-black w-1/4 h-20' >{proficiency.profiBonus}</p>
                     </div>
                 </div>
