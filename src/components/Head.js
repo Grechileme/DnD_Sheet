@@ -191,207 +191,207 @@ const Head = () => {
 
                 <div className='flex'>
                     <div className='flex flex-col items-start border-4 border-black w-1/6'>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1 mt-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedSST'
                             value={checked.checkedSST}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedSST ? formulario.strMod : formulario.strMod + proficiency.profiBonus}</b> Saving Throw
+                            <b className='ml-2 mr-2'>{checked.checkedSST ? formulario.strMod : formulario.strMod + proficiency.profiBonus}</b> Saving Throw
                         </label>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedAth'
                             value={checked.checkedAth}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedAth ? formulario.strMod : formulario.strMod + proficiency.profiBonus}</b> Athletics
+                            <b className='ml-2 mr-2'>{checked.checkedAth ? formulario.strMod : formulario.strMod + proficiency.profiBonus}</b> Athletics
                         </label>
                     </div>
                     <div className='flex flex-col items-start border-4 border-black w-1/6'>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1 mt-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedDST'
                             value={checked.checkedDST}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedDST ? formulario.dexMod : formulario.dexMod + proficiency.profiBonus}</b> Saving Throw
+                            <b className='ml-2 mr-2'>{checked.checkedDST ? formulario.dexMod : formulario.dexMod + proficiency.profiBonus}</b> Saving Throw
                         </label>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedAcr'
                             value={checked.checkedAcr}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedAcr ? formulario.dexMod : formulario.dexMod + proficiency.profiBonus}</b> Acrobatics
+                            <b className='ml-2 mr-2'>{checked.checkedAcr ? formulario.dexMod : formulario.dexMod + proficiency.profiBonus}</b> Acrobatics
                         </label>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedSoH'
                             value={checked.checkedSoH}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedSoH ? formulario.dexMod : formulario.dexMod + proficiency.profiBonus}</b> Sleight of Hand
+                            <b className='ml-2 mr-2'>{checked.checkedSoH ? formulario.dexMod : formulario.dexMod + proficiency.profiBonus}</b> Sleight of Hand
                         </label>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedSte'
                             value={checked.checkedSte}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedSte ? formulario.dexMod : formulario.dexMod + proficiency.profiBonus}</b> Stealth
+                            <b className='ml-2 mr-2'>{checked.checkedSte ? formulario.dexMod : formulario.dexMod + proficiency.profiBonus}</b> Stealth
                         </label>
                     </div>
                     <div className='flex flex-col items-start border-4 border-black w-1/6'>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1 mt-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedCST'
                             value={checked.checkedCST}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedCST ? formulario.conMod : formulario.conMod + proficiency.profiBonus}</b> Saving Throw
+                            <b className='ml-2 mr-2'>{checked.checkedCST ? formulario.conMod : formulario.conMod + proficiency.profiBonus}</b> Saving Throw
                         </label>
                     </div>
                     <div className='flex flex-col items-start border-4 border-black w-1/6'>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1 mt-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedIST'
                             value={checked.checkedIST}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedIST ? formulario.intMod : formulario.intMod + proficiency.profiBonus}</b> Saving Throw
+                            <b className='ml-2 mr-2'>{checked.checkedIST ? formulario.intMod : formulario.intMod + proficiency.profiBonus}</b> Saving Throw
                         </label>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedArc'
                             value={checked.checkedArc}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedArc ? formulario.intMod : formulario.intMod + proficiency.profiBonus}</b> Arcana
+                            <b className='ml-2 mr-2'>{checked.checkedArc ? formulario.intMod : formulario.intMod + proficiency.profiBonus}</b> Arcana
                         </label>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedHis'
                             value={checked.checkedHis}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedHis ? formulario.intMod : formulario.intMod + proficiency.profiBonus}</b> History
+                            <b className='ml-2 mr-2'>{checked.checkedHis ? formulario.intMod : formulario.intMod + proficiency.profiBonus}</b> History
                         </label>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedInv'
                             value={checked.checkedInv}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedInv ? formulario.intMod : formulario.intMod + proficiency.profiBonus}</b> Investigation
+                            <b className='ml-2 mr-2'>{checked.checkedInv ? formulario.intMod : formulario.intMod + proficiency.profiBonus}</b> Investigation
                         </label>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedNat'
                             value={checked.checkedNat}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedNat ? formulario.intMod : formulario.intMod + proficiency.profiBonus}</b> Nature
+                            <b className='ml-2 mr-2'>{checked.checkedNat ? formulario.intMod : formulario.intMod + proficiency.profiBonus}</b> Nature
                         </label>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedRel'
                             value={checked.checkedRel}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedRel ? formulario.intMod : formulario.intMod + proficiency.profiBonus}</b> Religion
+                            <b className='ml-2 mr-2'>{checked.checkedRel ? formulario.intMod : formulario.intMod + proficiency.profiBonus}</b> Religion
                         </label>
                     </div>
                     <div className='flex flex-col items-start border-4 border-black w-1/6'>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1 mt-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedWST'
                             value={checked.checkedWST}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedWST ? formulario.wisMod : formulario.wisMod + proficiency.profiBonus}</b> Saving Throw
+                            <b className='ml-2 mr-2'>{checked.checkedWST ? formulario.wisMod : formulario.wisMod + proficiency.profiBonus}</b> Saving Throw
                         </label>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedAnH'
                             value={checked.checkedAnH}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedAnH ? formulario.wisMod : formulario.wisMod + proficiency.profiBonus}</b> Animal Handling
+                            <b className='ml-2 mr-2'>{checked.checkedAnH ? formulario.wisMod : formulario.wisMod + proficiency.profiBonus}</b> Animal Handling
                         </label>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedIns'
                             value={checked.checkedIns}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedIns ? formulario.wisMod : formulario.wisMod + proficiency.profiBonus}</b> Insight
+                            <b className='ml-2 mr-2'>{checked.checkedIns ? formulario.wisMod : formulario.wisMod + proficiency.profiBonus}</b> Insight
                         </label>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedMed'
                             value={checked.checkedMed}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedMed ? formulario.wisMod : formulario.wisMod + proficiency.profiBonus}</b> Medicine
+                            <b className='ml-2 mr-2'>{checked.checkedMed ? formulario.wisMod : formulario.wisMod + proficiency.profiBonus}</b> Medicine
                         </label>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedPer'
                             value={checked.checkedPer}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedPer ? formulario.wisMod : formulario.wisMod + proficiency.profiBonus}</b> Perception
+                            <b className='ml-2 mr-2'>{checked.checkedPer ? formulario.wisMod : formulario.wisMod + proficiency.profiBonus}</b> Perception
                         </label>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedSur'
                             value={checked.checkedSur}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedSur ? formulario.wisMod : formulario.wisMod + proficiency.profiBonus}</b> Survival
+                            <b className='ml-2 mr-2'>{checked.checkedSur ? formulario.wisMod : formulario.wisMod + proficiency.profiBonus}</b> Survival
                         </label>
                     </div>
                     <div className='flex flex-col items-start border-4 border-black w-1/6'>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1 mt-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedAST'
                             value={checked.checkedAST}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedAST ? formulario.chaMod : formulario.chaMod + proficiency.profiBonus}</b> Saving Throw
+                            <b className='ml-2 mr-2'>{checked.checkedAST ? formulario.chaMod : formulario.chaMod + proficiency.profiBonus}</b> Saving Throw
                         </label>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedDec'
                             value={checked.checkedDec}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedDec ? formulario.chaMod : formulario.chaMod + proficiency.profiBonus}</b> Deception
+                            <b className='ml-2 mr-2'>{checked.checkedDec ? formulario.chaMod : formulario.chaMod + proficiency.profiBonus}</b> Deception
                         </label>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedInt'
                             value={checked.checkedInt}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedInt ? formulario.chaMod : formulario.chaMod + proficiency.profiBonus}</b> Intimidation
+                            <b className='ml-2 mr-2'>{checked.checkedInt ? formulario.chaMod : formulario.chaMod + proficiency.profiBonus}</b> Intimidation
                         </label>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedPef'
                             value={checked.checkedPef}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedPef ? formulario.chaMod : formulario.chaMod + proficiency.profiBonus}</b> Performance
+                            <b className='ml-2 mr-2'>{checked.checkedPef ? formulario.chaMod : formulario.chaMod + proficiency.profiBonus}</b> Performance
                         </label>
-                        <label className='text-xl'>
-                            <input type='checkbox'
+                        <label className='text-xl flex items-center ml-1'>
+                            <input className='h-5 w-5' type='checkbox'
                             name='checkedPes'
                             value={checked.checkedPes}
                             onChange={handleChangeCheck}
                             />
-                            <b>{checked.checkedPes ? formulario.chaMod : formulario.chaMod + proficiency.profiBonus}</b> Persuasion
+                            <b className='ml-2 mr-2'>{checked.checkedPes ? formulario.chaMod : formulario.chaMod + proficiency.profiBonus}</b> Persuasion
                         </label>
                     </div>
                 </div>
