@@ -395,6 +395,39 @@ const Head = () => {
                         </label>
                     </div>
                 </div>
+                <br></br>
+                <div className='mx-auto grid grid-cols-3 grid-rows-3 gap-2 justify-items-center w-3/4'>
+                    <div className='border-4 border-black'>
+                        <input type='text' placeholder='Max Hit Point'></input>
+                    </div>
+                    <div className='row-span-2 border-4 border-black'>
+                        <input className='h-full' type='text' placeholder='Current Hit Points'></input>
+                    </div>
+                    <div className='border-4 border-black col-start-1'>
+                        <input type='text' placeholder='Total Hit Dice'></input>
+                    </div>
+                    <div className='border-4 border-black col-start-1 row-start-3'>
+                        <input type='text' placeholder='Hit Dice'></input>
+                    </div>
+                    <div className='border-4 border-black col-start-2'>
+                        <input type='text' placeholder='Temporary Hit Points'></input>
+                    </div>
+                    <div className='col-start-3 row-start-1'>
+                        <p className='text-2xl'><b>Death Saves</b></p>
+                    </div>
+                    <div className='flex col-start-3 row-start-2'>
+                        <p className='mr-2'><b>Successes</b></p>
+                        <input className='mr-1' type='checkbox'></input>
+                        <input className='mr-1' type='checkbox'></input>
+                        <input className='mr-1' type='checkbox'></input>
+                    </div>
+                    <div className='flex col-start-3 row-start-3'>
+                        <p className='mr-2'><b>Failures</b></p>
+                        <input className='mr-1' type='checkbox'></input>
+                        <input className='mr-1' type='checkbox'></input>
+                        <input className='mr-1' type='checkbox'></input>
+                    </div>
+                </div>
             </div>
         );
 
