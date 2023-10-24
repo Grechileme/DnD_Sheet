@@ -446,18 +446,24 @@ const Head = () => {
                         <p className='text-2xl'><b>Death Saves</b></p>
                     </div>
 
-                    <div className='flex col-start-3 row-start-2'>
-                        <p className='mr-2'><b>Successes</b></p>
-                        <input className='mr-1' type='checkbox'></input>
-                        <input className='mr-1' type='checkbox'></input>
-                        <input className='mr-1' type='checkbox'></input>
+                    <div className='col-start-3 row-start-2'>
+                        <div className='mr-2 text-2xl'>
+                            <b>Successes</b>
+                        </div>
+                        <div className='flex justify-center items-center'>
+                            <input className='mr-1 h-5 w-5' type='checkbox'></input>
+                            <input className='mr-1 h-5 w-5' type='checkbox'></input>
+                            <input className='mr-1 h-5 w-5' type='checkbox'></input>
+                        </div>
                     </div>
 
-                    <div className='flex col-start-3 row-start-3'>
-                        <p className='mr-2'><b>Failures</b></p>
-                        <input className='mr-1' type='checkbox'></input>
-                        <input className='mr-1' type='checkbox'></input>
-                        <input className='mr-1' type='checkbox'></input>
+                    <div className='col-start-3 row-start-3'>
+                        <p className='mr-2 text-2xl'><b>Failures</b></p>
+                        <div className='flex justify-center items-center'>
+                            <input className='mr-1 h-5 w-5' type='checkbox'></input>
+                            <input className='mr-1 h-5 w-5' type='checkbox'></input>
+                            <input className='mr-1 h-5 w-5' type='checkbox'></input>
+                        </div>
                     </div>
                 </div>
             </div>
