@@ -5,6 +5,8 @@ const Head = () => {
 
     // var StrMod = '+3';
 
+    const test = 'blablabla'
+
     const [formulario, setFormulario] = useState({
         strMod: 0,
         dexMod: 0,
@@ -464,6 +466,49 @@ const Head = () => {
                             <input className='mr-1 h-5 w-5' type='checkbox'></input>
                             <input className='mr-1 h-5 w-5' type='checkbox'></input>
                         </div>
+                    </div>
+                </div>
+                <br></br>
+                <div className='flex'>
+                    <div className='m-4 w-1/3 h-96 border-4 border-black overflow-auto flex flex-col justify-center items-center'>
+                        <div className='flex'>
+                            <div className='mx-auto my-1 border-4 border-black w-1/3'>
+                                <input className='w-full text-center' type='text'></input>
+                            </div>
+                            <div className='mx-auto my-1 border-4 border-black w-1/5'>
+                                <input className='w-full text-center' type='text'></input>
+                            </div>
+                            <div className='mx-auto my-1 border-4 border-black w-1/3'>
+                                <input className='w-full text-center' type='text'></input>
+                            </div>
+                        </div>
+                        <div className='flex'>
+                            <div className='mx-auto my-1 border-4 border-black w-1/3'>
+                                <input className='w-full text-center' type='text'></input>
+                            </div>
+                            <div className='mx-auto my-1 border-4 border-black w-1/5'>
+                                <input className='w-full text-center' type='text'></input>
+                            </div>
+                            <div className='mx-auto my-1 border-4 border-black w-1/3'>
+                                <input className='w-full text-center' type='text'></input>
+                            </div>
+                        </div>
+                        <div className='flex'>
+                            <div className='mx-auto my-1 border-4 border-black w-1/3'>
+                                <input className='w-full text-center' type='text'></input>
+                            </div>
+                            <div className='mx-auto my-1 border-4 border-black w-1/5'>
+                                <input className='w-full text-center' type='text'></input>
+                            </div>
+                            <div className='mx-auto my-1 border-4 border-black w-1/3'>
+                                <input className='w-full text-center' type='text'></input>
+                            </div>
+                        </div>
+                        
+                        <textarea className='m-1 resize-none w-11/12 h-60'></textarea>
+                    </div>
+                    <div className='m-4 w-2/3 h-96 border-4 border-black overflow-auto break-words'>
+                        <p>{test}</p>
                     </div>
                 </div>
             </div>
